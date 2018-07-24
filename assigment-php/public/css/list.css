@@ -1,0 +1,18 @@
+.table{
+    margin-top:40px;
+    background-color: #fffbff;
+    font-size: 20px;
+
+}
+.table th {
+    background-color: #2176bd;
+    height: 50px;
+    text-align: center;
+}
+
+.btn-delete{
+    color:red;
+}
+.btn-delete:hover{
+    color: #bd3112;
+}

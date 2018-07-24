@@ -1,0 +1,35 @@
+
+/*Hết css chính*/
+
+.input-form {
+    background-color: #F8FAFE;
+    border-top: solid 3px #2e6da4;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.user-input {
+    width: 95%;
+    display: block;
+    height: 34px;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+
+}
+
+.user {
+    margin-top: 20px;
+}
+
+.user-select {
+    background-color: #fff;
+    height: 34px;
+    width: 120px;
+    padding-left: 10px;
+}
