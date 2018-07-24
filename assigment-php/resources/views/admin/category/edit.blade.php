@@ -78,26 +78,6 @@
                                value="{{$obj -> name}}"></div>
                 </div>
                 <div class="user">
-                    <label>Price</label>
-                    <div>
-                        <input type="text" class="user-input" name="price" placeholder="Price..."
-                               value="{{$obj -> price}}">
-                    </div>
-                </div>
-                <div class="user">
-                    <label>Category</label>
-                    <div>
-                        <select name="categoryId" class="user-select" value="{{$obj -> categoryId}}">
-                            <option value="1">Khai vị</option>
-                            <option value="2">Món chính</option>
-                            <option value="3">Tráng miệng</option>
-                            <option value="4">Ăn vặt</option>
-                            <option value="5">Liên hoan</option>
-                            <option value="6">Bún phở</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="user">
                     <label>Description</label>
                     <div>
                         <input type="text" name="description" class="user-input" placeholder="Description..."

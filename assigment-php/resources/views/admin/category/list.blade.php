@@ -74,8 +74,6 @@
                 <table width="100%" class="table table-condensed">
                     <tr>
                         <th>Name</th>
-                        <th>Price</th>
-                        <th>CategoryId</th>
                         <th>Description</th>
                         <th>Images</th>
                         <th>Status</th>
@@ -85,8 +83,6 @@
                     @foreach($list_obj as $item)
                         <tr>
                             <td>{{$item -> name}}</td>
-                            <td>{{$item -> price}}</td>
-                            <td>{{$item -> categoryId}}</td>
                             <td>{{$item -> description}}</td>
                             <td><img src="{{$item -> images}}" style="width: 100px"></td>
                             <td class="id">{{$item -> status}}</td>

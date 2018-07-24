@@ -15,3 +15,4 @@
 //Route::get('/admin/food', 'FoodController@index');
 Route::resource('/admin/food', 'FoodController');
 Route::get('/user/list','FoodController@userindex');
+Route::resource('/admin/category', 'CategoryController');
