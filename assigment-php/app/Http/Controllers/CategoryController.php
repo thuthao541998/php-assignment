@@ -18,11 +18,6 @@ class CategoryController extends Controller
         $list_obj = Category::all();
         return view('admin.category.list')->with('list_obj', $list_obj);
     }
-    public function userindex()
-    {
-        $list_obj = Category::all();
-        return view('user.show')->with('list_obj', $list_obj);
-    }
 
     /**
      * Show the form for creating a new resource.
